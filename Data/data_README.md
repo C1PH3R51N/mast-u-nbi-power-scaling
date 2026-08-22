@@ -17,17 +17,6 @@ The analysed cohort is associated with the experiment:
 
 **Shot range: 27929--27938**
 
-## Suggested Contents
-
-Place the final Power BI input datasets in this folder, for example:
-
-``` text
-data/
-├── nbi_state_response_v7.csv
-└── nbi_state_shot_summary_v7.csv
-```
-
-Only include outputs that are actually used by the final analysis.
 
 ## Reproduction
 
