@@ -1,0 +1,4 @@
+project_role,diagnostics,mean_coverage_pct
+CANDIDATE,14,100.0
+CORE,3,100.0
+FUTURE,7,68.6

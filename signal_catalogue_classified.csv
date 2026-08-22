@@ -1,0 +1,864 @@
+diagnostic,signal_name,label,units,shots_available,example_shape,example_dtype,total_cohort_shots,coverage_pct,primary_category,secondary_category,project_role,coverage_band,analysis_priority
+ANB,ANB_PASSNUMBER,Pass,Pass,10,"(1,)",int32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SS_FULL_POWER,,MW,10,"(37001,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SS_HALF_POWER,,MW,10,"(37001,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SS_SOURCE_GAS_DEUTE,,,10,"(37001,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SS_SUM_POWER,,MW,10,"(37001,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SS_THIRD_POWER,,MW,10,"(37001,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_STATUS,Status,Status,10,"(1,)",int32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SW_FULL_POWER,,MW,10,"(2,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SW_HALF_POWER,,MW,10,"(2,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SW_SOURCE_GAS_UNKNO,,,9,"(2,)",float32,10,90.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,High,1 - High
+ANB,ANB_SW_SUM_POWER,,MW,10,"(2,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_SW_THIRD_POWER,,MW,10,"(2,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+ANB,ANB_TOT_SUM_POWER,,MW,10,"(37001,)",float32,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+AMC,AMC_EFPS CURRENT,EFPS Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_ERROR FIELD/02,Error Field/02,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_ERROR FIELD/05,Error Field/05,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2IL COIL CURRENT,P2IL Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2IL FEED CURRENT,P2il Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2IU COIL CURRENT,P2IU Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2IU FEED CURRENT,P2iu Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2L CASE CURRENT,P2L Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2L CURRENT,P2L Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2OL COIL CURRENT,P2OL Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2OL FEED CURRENT,P2ol Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2OU COIL CURRENT,P2OU Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2OU FEED CURRENT,P2ou Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2U CASE CURRENT,P2U Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P2U CURRENT,P2U Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3L CASE CURRENT,P3L Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3L COIL CURRENT,P3L Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3L CURRENT,P3L Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3L FEED CURRENT,P3l Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3U CASE CURRENT,P3U Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3U COIL CURRENT,P3U Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3U CURRENT,P3U Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P3U FEED CURRENT,P3u Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4L CASE CURRENT,P4L Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4L COIL CURRENT,P4L Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4L CURRENT,P4L Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4L FEED CURRENT,P4l Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4U CASE CURRENT,P4U Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4U COIL CURRENT,P4U Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4U CURRENT,P4U Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P4U FEED CURRENT,P4u Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5L CASE CURRENT,P5L Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5L COIL CURRENT,P5L Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5L CURRENT,P5L Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5L FEED CURRENT,P5l Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5U CASE CURRENT,P5U Case Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5U COIL CURRENT,P5U Coil Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5U CURRENT,P5U Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P5U FEED CURRENT,P5u Feed Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P6L CURRENT,P6L Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_P6U CURRENT,P6U Current,kA.turn,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_PLASMA CURRENT,Plasma Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_SOL CURRENT,Sol Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_STATUS,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,AMC_TF CURRENT,TF Current,kA,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+AMC,VERSION,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+ANU,ANU_ERRORS,errors,"error, neutr",10,"(300,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,ANU_NEUTRONS,neutrons,neutrons/sec,10,"(300,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,ANU_NEUTRONS_CB,neutrons_cb,neutrons/sec,10,"(122880,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,ANU_NEUTRONS_COUNT,neutrons_count,neutrons/sec,10,"(300,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,ANU_NEUTRONS_DC,neutrons_dc,neutrons/sec,10,"(118881,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,ANU_PASSNUMBER,,,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,ANU_STATUS,,,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ANU,VERSION,,,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ADG,ADG_DENSITY_GRADIENT,m-4,m-4,10,"(291,)",float32,10,100.0,Edge & Divertor Physics,Electron Density,CANDIDATE,Complete,2 - Medium
+ADG,ADG_GRADIENT_POSITION,m,m,10,"(291,)",float32,10,100.0,Edge & Divertor Physics,Electron Density,CANDIDATE,Complete,2 - Medium
+ADG,ADG_PASSNUMBER,Passno,Passno,10,"(1,)",float32,10,100.0,Edge & Divertor Physics,Electron Density,CANDIDATE,Complete,2 - Medium
+ADG,ADG_STATUS,Status,Status,10,"(1,)",float32,10,100.0,Edge & Divertor Physics,Electron Density,CANDIDATE,Complete,2 - Medium
+ANE,ANE_CO2,m^-2,m^-2,10,"(32768,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+ANE,ANE_DENSITY,m^-2,m^-2,10,"(32768,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+ANE,ANE_HENE,m^-2,m^-2,10,"(32768,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+ANE,ANE_PASSNUMBER,Passno,Passno,10,"(1,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+ANE,ANE_STATUS,Status,Status,10,"(1,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+ANE,ANE_STATUS_DETAIL,status_detail,status_detai,10,"(1,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+ANE,ANE_VERSION,Version,Version,10,"(1,)",float32,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+AYC,AYC_ACQIRIS_TIME,time,s,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_ANGLE,scattering angle,,10,"(1, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_ASPECTRA,Fitted spectra,Vs,10,"(111, 130, 4)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_CHI2,fit chi^2 error,,10,"(111, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_COVARIANCE_NE_TE,fit covariance of ne Te,eV m^-3,10,"(111, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_INSTRUMENT_DR,instrument_dr,m,10,"(20, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_INSTRUMENT_INTENSIT,instrument_intensity,m,10,"(20, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_INTERFEROMETER_CORR,Interferometer Correctio,-,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_LASER_ENERGY,laser energy,J,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_LASER_TRACK,laser number,,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_NE,electron density,m^-3,10,"(111, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_NE_CORE,core density,m^-^3,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_PASSNUMBER,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_PE,electron pressure,a.u.,10,"(111, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_PLASMALIGHT_ERROR,Plasma light noise on sc,Vs,10,"(111, 130, 4)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_POISSON_ERROR,Poisson error on scatter,Vs,10,"(111, 130, 4)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_POLYNAME,polychromator,,10,"(1, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_R,major radius,m,10,"(111, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_R_CORE,core radius,m,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_SCAT_LENGTH,scattering length,m,10,"(1, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_SEGMENT_NUMBER,segment number,arb,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_SPECTRA,Raw spectra,Vs,10,"(111, 130, 4)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_SPECTRA_STRAY_LIGHT,Raw spectra,Vs,10,"(111, 130, 4)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_STATUS,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_TE,electron temperature,eV,10,"(111, 130)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_TE_CORE,core temperature,eV,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_TIME,time,s,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_VERSION_FIBRE,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_VERSION_POLY,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_VERSION_RAMAN,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_VERSION_SPECTROMETE,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_XYC_TIME,xyc_time,s,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYC,AYC_YAG_NELINT,yag line integral densit,e- / m2,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_ANGLE,scattering angle,,10,"(1, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_ASPECTRA,Fitted spectra,Vs,10,"(111, 16, 4)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_CHI2,fit chi^2 error,,10,"(111, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_COVARIANCE_NE_TE,fit covariance of ne Te,eV m^-3,10,"(111, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_INSTRUMENT_DR,instrument_dr,m,10,"(20, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_INSTRUMENT_INTENSIT,instrument_intensity,m,10,"(20, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_INTERFEROMETER_CORR,Interferometer Correctio,-,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_LASER_ENERGY,laser energy,J,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_LASER_TRACK,laser number,,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_NE,electron density,m^-3,10,"(111, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_PASSNUMBER,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_PE,electron pressure,a.u.,10,"(111, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_POLYNAME,polychromator,,10,"(1, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_R,major radius,m,10,"(111, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_SCAT_LENGTH,scattering length,m,10,"(1, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_SEGMENT_NUMBER,segment number,arb,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_SPECTRA,Raw spectra,Vs,10,"(111, 16, 4)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_STATUS,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_TE,electron temperature,eV,10,"(111, 16)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_TIME,time,s,10,"(111,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_VERSION_FIBRE,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_VERSION_POLY,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_VERSION_RAMAN,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,AYE_VERSION_SPECTROMETE,,,10,"(1,)",float32,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AMS,AMS_ACOEFF,,,10,"(1, 6, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_BEAM_OK,,,10,"(1,)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_CH,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_COSBEAM,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_CPF,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_CPFNOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_CWL,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_DATETIME,,2011-12-15T1,10,"(1, 19)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_FILTERPN,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_FWHM,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_GAMMA,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_GAMMANOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_LPF,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_LPFNOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_MD,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_OFFSET,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_PASSNUMBER,Pass,Pass,10,"(1,)",int32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_PEM1_FREQ,,,8,"(1,)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_PEM2_FREQ,,,8,"(1,)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_PHASE1,,,8,"(1, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_PHASE2,,,8,"(1, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_PITCHA,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_PITCHANOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_Q0_KAPPA1.85_2PT,,,8,"(1290,)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_Q0_KAPPA1.85_4PT,,,8,"(1290,)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_RAX_2PT,,,8,"(1290,)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_RAX_4PT,,,8,"(1290,)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_RETAR1,,,8,"(1, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_RETAR2,,,8,"(1, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_RPOS,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_RUNPARAMETERS,,<?xml versio,10,"(1, 2219)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_S0,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S0NOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S1,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S1NOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S2,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S2NOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S3,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_S3NOISE,,,8,"(1290, 35)",float32,10,80.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,High,2 - Medium
+AMS,AMS_STATUS,Status,Status,10,"(1,)",int32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_TRANS,,,10,"(1, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_VERSION,,,10,"(1,)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_VIEWSTR,,<?xml versio,10,"(1, 408)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_VX0,,,10,"(1, 19, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMS,AMS_VY0,,,10,"(1, 19, 35)",float32,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+EFM,EFM_ALL_TIMES,Time of reconstruction,s,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_AREAP_(C),pol area of surfaces,m^2,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BETAN,betat/(I/ a Bvac_geom),T,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BETAP,Poloidal Beta,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BETAPD,Poloidal Diamagnetic Bet,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BETAT,Toroidal Beta,%,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BETATD,Toroidal Diamagnetic Bet,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BPHI_RGEOM,Bphi at rgeom,T,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BPHI_RMAG,Bphi at rmag,T,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BPHI_SQUARED,Bphi^2 dV,T^2 m^3,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BPOL_SQUARED,Bpol dV,T^2 m^3,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BVAC_R,radius at where B_phi=_b,m,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BVAC_RGEOM,Bvac at rgeom,T,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BVAC_RMAG,Bvac at rmag,T,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_BVAC_VAL,Vacuum toroidal field at,T,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_CHISQ_MAGNETIC,Chi**2 (magnetic),nounits,10,"(93, 10)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_CM_BDRY,computed normalized psi_,-,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_CNVRGD_TIMES,Time of reconstruction,s,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_CURRENT_CENTRD_R,radius of current centro,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_CURRENT_CENTRD_Z,height of current centro,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_CUTIP,Ip threshold current,A,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_DIAMAG_FLUX(C),Computed Diamagnetic Flu,Wb,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_DIAMAG_FLUX(X),Measured Diamagnetic Flu,Wb,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_ELONG(PSI)_(C),elongation of surfaces,,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_ELONGATION,Elongation,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_ELONGATION_AXIS,Elongation on Magnetic A,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_F(PSI)_(C),computed f=R*B (centre t,T-m,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_(C),Computed f-coil current,A,10,"(93, 101)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_(X),Measured f-coil current,A,10,"(93, 101)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_ANG1,f-Coil Angle 1,deg,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_ANG2,f-Coil Angle 2,deg,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_CHISQ,Chi**2 of each f-coil,nounits,10,"(93, 101)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_CIRC,f-Coil circuit,-,10,"(1, 938)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_HEIGHT,f-Coil Height,m,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_N,Number of f-circuits,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_R,f-Coil Location Radius,m,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_SEGS_N,Number of f-coil element,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_TURNS,f-Coil turns,deg,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_WIDTH,f-Coil Width,m,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_XMULT,f-Coil turns multiplier,deg,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCOIL_Z,f-Coil Location Height,m,10,"(1, 938)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FCURBD,FFprime Boundary Conditi,-,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FFPRIME,ffprime (centre to edge),T-rad,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FFPRIME_COEFS,FFPrime Coefs,-,10,"(80, 2)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FINAL_CHISQ,Chi**2 (magnetic),nounits,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FINAL_ITERATION_ERR,Final iteration err,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FWTBDRY,fwtpre,-,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FWTBP,PPrime and FFPrime Propo,-,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FWTFC,fit weight of f-coils,-,10,"(93, 101)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FWTMP,fit weight of mag signal,-,10,"(93, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_FWTSI,fit weight of flux loop,-,10,"(93, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_GEOM_AXIS_R(C),Geometric Axis Radius,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_GEOM_AXIS_Z(C),Geometric Axis Height,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_GRID(R),r-coordinates of computa,m,10,"(1, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_GRID(Z),z-coordinates of computa,m,10,"(1, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_IP_TIMES,Time of reconstruction,s,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_IROD,toroidal rod current,A-T,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_ITERATION_ERROR,Iteration error,nounits,10,"(80, 10)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_J(R),Jphi(r) at z=0.,-,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_KFFCUR,Number of FFprime Coefs,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_KFFFNC,Basis Function Number fo,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_KPPCUR,Number of PPrime Coefs,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_KPPFNC,Basis Function Number fo,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_KWWCUR,Number of P(Rot) Coefs,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_KWWFNC,Basis Function Number fo,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LCFS(N)_(C),No. of coords on lcfs,nounits,10,"(80,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LCFS(R)_(C),r-coords of separatrix,m,10,"(80, 2600)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LCFS(Z)_(C),z-coords of separatrix,m,10,"(80, 2600)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LCFS_LENGTH,length of lcfs,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LI,Plasma Inductance,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LIMITER(N),Number of limiter coords,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LIMITER(R),Limiter Radius,m,10,"(1, 37)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_LIMITER(Z),Limiter Height,m,10,"(1, 37)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGNETIC_AXIS_R,Radius of Magnetic Axis,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGNETIC_AXIS_Z,Height of Magnetic Axis,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPRI_CHISQ,Chi**2 of each magnetic,nounits,10,"(93, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_(C),Computed magnetic signal,T,10,"(93, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_(X),Measured magnetic signal,T,10,"(93, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_ANG,Magnetic Probe Angle,deg,10,"(1, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_LEN,Magnetic Probe Length,m,10,"(1, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_N,Number of Magnetic Probe,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_R,Magnetic Probe Location,m,10,"(1, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MAGPR_Z,Magnetic Probe Location,m,10,"(1, 78)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_MINOR_RADIUS,Minor Radius,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_NH,Number of grid points in,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_NPRESS,No. of pressure constrai,---,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_NUM_ITERATIONS,number of iterations,nounits,10,"(80,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_NW,Number of grid points in,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_P(PSI)_(C),computed press (centre t,Pa,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_P(R)_(C),p(r) (total),Pa,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_P2A(R)_(C),p(r) (non-rotational par,Pa,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_P2B(R)_(C),pw(r) (rotational part),Pa,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_P2C(R)_(C),contribution of pw(r) to,Pa,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PASSNUMBER,Pass,Pass,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PCURBD,PPrime Boundary Conditio,-,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PLASMA_AREA,Plasma Area,m**2,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PLASMA_CURR(C),Computed Plasma Current,A,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,"EFM_PLASMA_CURR(R,Z)","J(r,z)",A/m^2,10,"(80, 65, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PLASMA_CURR(X),Measured Plasma Current,A,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PLASMA_ENERGY,Plasma Thermal Energy:3/,J,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PLASMA_VOLUME,Plasma Volume,m**3,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_POL_LENGTH,pol lengths of flux surf,m,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PPRIME,pprime (centre to edge),Pa-rad/Wb,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PPRIMEW,prpime(rot) (centre to e,Pa-ra/Wb,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PPRIME_COEFS,PPrime Coefs,--,10,"(80, 2)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PSI(R),psi(r) at z=0.,-,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,"EFM_PSI(R,Z)","psi(r,z)",Wb/rad,10,"(93, 65, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PSI_AXIS,Poloidal flux on axis,Wb/rad,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PSI_BOUNDARY,Poloidal flux at boundar,Wb/rad,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_PW(PSI)_(C),computed rotational pres,Pa,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q(PSI)_(C),q-profile (centre to edg,nounits,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q(R),q(r) at z=0.,-,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q=1_RADIUS,radius of q=1 surface,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q=2_RADIUS,radius of q=2 surface,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q=3_RADIUS,radius of q=3 surface,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_QSTAR,q-star,-,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q_100,q at Psi_norm=100%,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q_90,q at Psi_norm=90%,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q_95,q at Psi_norm=95%,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_Q_AXIS,q on Magnetic Axis,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_R(PSI100)_IN,i/b Rad of lcfs at Mid,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_R(PSI100)_OUT,o/b Rad of lcfs at Mid,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_R(PSI90)_IN,i/b Rad of 90%Psi at Mid,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_R(PSI90)_OUT,o/b Rad of 90%Psi at Mid,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_R(PSI95)_IN,i/b Rad of 95%Psi at Mid,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_R(PSI95)_OUT,o/b Rad of 95%Psi at Mid,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_RBDRY,rbdry,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_RT,shafranov_integral_RT,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_RVALS,R-coords used for radial,-,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_RVTOR,rotational constraint co,-,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SCALEPR,pressure scaling factor,-,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SHAF_INTEGRAL_1,shafranov_integral_1,---,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SHAF_INTEGRAL_2,shafranov_integral_2,---,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SHAF_INTEGRAL_3,shafranov_integral_3,---,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SHOT_NUMBER,MAST Shot Number,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SIGBDRY,sigbdry,-,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_(C),Computed flux loops sign,Wb,10,"(93, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_(X),Measured flux loops sign,Wb,10,"(93, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_CHISQ,Chi**2 of each flux loop,nounits,10,"(93, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_DPHI,Flux Loop Toroidal Exten,m,10,"(1, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_N,Number of Flux Loops,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_R,Flux Loop Location Radiu,m,10,"(1, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_SILOP_Z,Flux Loop Location Heigh,m,10,"(1, 46)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_STATUS,MAST Status flag,-,10,"(1,)",int32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_TIME,Time of reconstruction,s,10,"(93,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_TRIANG_L(PSI)_(C),lower delta of surfaces,,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_TRIANG_LOWER,Lower Triangularity,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_TRIANG_U(PSI)_(C),upper delta of surfaces,,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_TRIANG_UPPER,Upper Triangularity,nounits,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_VOLP_(C),vol within psi surfaces,m^3,10,"(80, 65)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_WCURBD,P(Rot) Boundary Conditio,-,10,"(1,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_WPLASMD,Plasma Diamagnetic Energ,J,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_WPOL,Wpol,J,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_XPOINT1_R(C),Radius of X-point 1,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_XPOINT1_Z(C),Height of X-point 1,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_XPOINT2_R(C),Radius of X-point 2,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_XPOINT2_Z(C),Height of X-point 2,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+EFM,EFM_ZBDRY,zbdry,m,10,"(80,)",float32,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+AMA,AMA_N=2 AMPLITUDE,n=2 amplitude,Tesla,10,"(650000,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_N=2 FREQUENCY,n=2 frequency,Hz,10,"(650000,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_N=2 SIGNAL,n=2 signal,Tesla,10,"(650000,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_N=ODD AMPLITUDE,n=odd amplitude,Tesla,10,"(650000,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_N=ODD FREQUENCY,n=odd frequency,Hz,10,"(650000,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_N=ODD SIGNAL,n=odd signal,Tesla,10,"(650000,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_PASSNUMBER,,,10,"(1,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,AMA_STATUS,,,10,"(1,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+AMA,VERSION,,,10,"(1,)",float32,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+ASM,ASM_HM/PERIODS,ARB,ARB,10,"(30000,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_HM/RATING,ARB,ARB,10,"(30000,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_OUT/NN_PATTERN,Pattern,Pattern,10,"(1128,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_OUT/NN_RATING,ARB,ARB,10,"(1128,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_OUT/RATING,ARB,ARB,10,"(1128,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_OUT/SIGNAL,mT,mT,10,"(1128,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_OUT/THETA,Radians,Radians,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_OUT/THETA_DEVIATION,ARB,ARB,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_PASSNUMBER,Passno,Passno,10,"(1,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/D01 1-7,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/D02 2-8,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/D03 4-10,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/D04 5-11,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/D05 6-12,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M01,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M010,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M011,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M012,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M02,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M03,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M04,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M05,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M06,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M07,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_SAD/M08,mT,mT,10,"(2257,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+ASM,ASM_STATUS,Status,Status,10,"(1,)",float32,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV01,CCBV01,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV02,CCBV02,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV03,CCBV03,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV04,CCBV04,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV05,CCBV05,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV07,CCBV07,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV08,CCBV08,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV09,CCBV09,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV10,CCBV10,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV11,CCBV11,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV12,CCBV12,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV13,CCBV13,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV14,CCBV14,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV15,CCBV15,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV16,CCBV16,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV17,CCBV17,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV18,CCBV18,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV19,CCBV19,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV20,CCBV20,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV21,CCBV21,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV22,CCBV22,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV24,CCBV24,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV25,CCBV25,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV26,CCBV26,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV27,CCBV27,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV28,CCBV28,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV29,CCBV29,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV30,CCBV30,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV31,CCBV31,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV32,CCBV32,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV33,CCBV33,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV34,CCBV34,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV36,CCBV36,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV37,CCBV37,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV38,CCBV38,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV39,CCBV39,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_CCBV40,CCBV40,Tesla,10,"(23000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/CC03,FL/CC03,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/CC04,FL/CC04,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/CC05,FL/CC05,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/CC07,FL/CC07,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/CC09,FL/CC09,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P2L/1,FL/P2L/1,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P3L/4,FL/P3L/4,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P3U/1,FL/P3U/1,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P3U/4,FL/P3U/4,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P4L/1,FL/P4L/1,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P4L/4,FL/P4L/4,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P4U/4,FL/P4U/4,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P5L/1,FL/P5L/1,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P5L/4,FL/P5L/4,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P5U/1,FL/P5U/1,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_FL/P6L/1,FL/P6L/1,Wb,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR01,OBR01,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR04,OBR04,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR05,OBR05,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR06,OBR06,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR07,OBR07,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR08,OBR08,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR09,OBR09,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR10,OBR10,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR12,OBR12,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR13,OBR13,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR14,OBR14,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR15,OBR15,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR16,OBR16,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR17,OBR17,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBR18,OBR18,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV03,OBV03,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV04,OBV04,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV05,OBV05,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV06,OBV06,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV08,OBV08,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV09,OBV09,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV11,OBV11,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV13,OBV13,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV14,OBV14,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV15,OBV15,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV16,OBV16,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV17,OBV17,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV18,OBV18,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_OBV19,OBV19,Tesla,10,"(30000,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,AMB_STATUS,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMB,VERSION,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO SUM P2L,Halo Sum P2l,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO SUM P2U,Halo Sum P2u,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO SUM P3L,Halo Sum P3l,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO SUM P3U,Halo Sum P3u,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/CCU/2,Halo/CCU/2,kA,10,"(200,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2L/1,Halo/P2l/1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2L/2,Halo/P2l/2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2L/3,Halo/P2l/3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2L/4,Halo/P2l/4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2L/5,Halo/P2l/5,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2L/6,Halo/P2l/6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2U/2,Halo/P2u/2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2U/3,Halo/P2u/3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2U/4,Halo/P2u/4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2U/5,Halo/P2u/5,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P2U/6,Halo/P2u/6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3L/1,Halo/P3l/1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3L/2,Halo/P3l/2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3L/4,Halo/P3l/4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3L/6,Halo/P3l/6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3U/2,Halo/P3u/2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3U/3,Halo/P3u/3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3U/4,Halo/P3u/4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3U/5,Halo/P3u/5,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_HALO/P3U/6,Halo/P3u/6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PASSNUMBER,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM EPL INNER,PHalo Sum EPl inner,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM EPL OUTER,PHalo Sum EPl outer,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM EPU INNER,PHalo Sum EPu inner,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM EPU OUTER,PHalo Sum EPu outer,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM P2L INNER,PHalo Sum P2l inner,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM P2L OUTER,PHalo Sum P2l outer,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM P2U INNER,PHalo Sum P2u inner,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO SUM P2U OUTER,PHalo Sum P2u outer,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/I1,phalo/epl/i1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/I2,phalo/epl/i2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/I4,phalo/epl/i4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/O1,phalo/epl/o1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/O2,phalo/epl/o2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/O3,phalo/epl/o3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/O5,phalo/epl/o5,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPL/O6,phalo/epl/o6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/I3,phalo/epu/i3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/I4,phalo/epu/i4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/O1,phalo/epu/o1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/O3,phalo/epu/o3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/O4,phalo/epu/o4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/O5,phalo/epu/o5,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/EPU/O6,phalo/epu/o6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2L/I2,phalo/p2l/i2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2L/I3,phalo/p2l/i3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2L/I6,phalo/p2l/i6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2L/O1,phalo/p2l/o1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2L/O2,phalo/p2l/o2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2L/O4,phalo/p2l/o4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/I1,phalo/p2u/i1,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/I2,phalo/p2u/i2,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/I3,phalo/p2u/i3,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/I4,phalo/p2u/i4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/I5,phalo/p2u/i5,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/I6,phalo/p2u/i6,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_PHALO/P2U/O4,phalo/p2u/o4,kA,10,"(2000,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,AMH_STATUS,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMH,VERSION,,,10,"(1,)",float32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_BOTCOL,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_ENDCROWN_L,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_ENDCROWN_U,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON10,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON7,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON8,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_INCON9,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_LHORW1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_LHORW2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_LHORW3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_LHORW4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_LHORW5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_LHORW6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID10,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID11,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID12,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID7,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID8,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_MID9,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2LARM1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2LARM2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2LARM3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2LDIVPL1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2LDIVPL2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2UARM1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2UARM2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2UARM3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2UDIVPL1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_P2UDIVPL2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_PASSNUMBER,Pass,,10,"(1,)",int16,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING10,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING7,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING8,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RING9,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR10,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR11,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR12,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR7,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR8,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_RODGR9,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_SUBSTEPS,# substeps,#,10,"(30000,)",int32,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_TCUTOFF,Iteration cutoff time,,10,"(1,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_TOLERANCE,epsilon,,10,"(1,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_TOPCOL,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_UHORW1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_UHORW2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_UHORW3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_UHORW4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_UHORW5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_UHORW6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW1,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW2,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW3,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW4,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW5,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW6,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW7,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,AMM_VERTW8,Current,kA,10,"(30000,)",float64,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ANT,ANT_NEUTRON_DOSE,neutron_dose,Sieverts,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Radiation Monitoring,CANDIDATE,Complete,2 - Medium
+ANT,ANT_PASSNUMBER,,,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Radiation Monitoring,CANDIDATE,Complete,2 - Medium
+ANT,ANT_STATUS,,,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Radiation Monitoring,CANDIDATE,Complete,2 - Medium
+ANT,VERSION,,,10,"(1,)",float32,10,100.0,Neutrons & Fusion Performance,Radiation Monitoring,CANDIDATE,Complete,2 - Medium
+AHX,AHX_HXR_MEZZW,hxr_mezzw,A.U.,10,"(15000,)",float32,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+AHX,AHX_HXR_S,hxr_s,A.U.,10,"(15000,)",float32,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+AHX,AHX_HXR_W,hxr_w,A.U.,10,"(15000,)",float32,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+AHX,AHX_PASSNUMBER,,,10,"(1,)",float32,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+AHX,AHX_STATUS,,,10,"(1,)",float32,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+AHX,VERSION,,,10,"(1,)",float32,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+ASX,ASX_ELM FREQS,ELM frequencies,Hz,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_ELMY,ELMy periods,Boolean,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_LARGE SCALE,Events hindering sawtoot,Boolean,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_LOW CAM NOS SAWT IN,Least lower cameras on w,xsx_hcaml#,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_LOWER FALSE INV RAD,Vertical inversion radiu,cm,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_MODES,Sinusoidal activity,Boolean,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_PASSNUMBER,Pass,Pass,10,"(1,)",int32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_SAWTEETH,Sawteeth,ARB,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_SAWTOOTH PERIODS,Sawtooth periods,s,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_STATUS,Status,Status,10,"(1,)",int32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_UP CAM NOS SAWT INV,Least upper cameras on w,xsx_hcamu#,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ASX,ASX_UPPER FALSE INV RAD,Vertical inversion radiu,cm,10,"(2,)",float32,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ADA,ADA_DALPHA INTEGRATED,Integrated Dalpha,arb,10,"(500,)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_DALPHA INVERTED,Radial Dalpha profile,Phm^-3s^-1,10,"(291, 1155)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_DALPHA PEAK RADIUS,Dalpha peak radius,m,10,"(500,)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_DALPHA RAW_FULL,Raw LinCAM signal,Phm^-2s^-1,10,"(291, 1024)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_GEO_FULL,raw radius,m,10,"(1, 1024)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_INNER INTEGRATED,Integrated Dalpha,arb,10,"(500,)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_INNER PEAK RADIUS,Dalpha peak radius,m,10,"(500,)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_PASSNUMBER,Passno,Passno,10,"(1,)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+ADA,ADA_STATUS,Status,Status,10,"(1,)",float32,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+AIM,AIM_DA/HM10/T,,ph/sr/m^2/s,4,"(50000,)",float32,10,40.0,Edge & Divertor Physics,Spectroscopy & Plasma Emission,FUTURE,Low,4 - Future
+AIM,AIM_DA/TO10,,ph/sr/m^2/s,4,"(50000,)",float32,10,40.0,Edge & Divertor Physics,Spectroscopy & Plasma Emission,FUTURE,Low,4 - Future
+AIM,AIM_PASSNUMBER,Pass,Pass,4,"(1,)",int32,10,40.0,Edge & Divertor Physics,Spectroscopy & Plasma Emission,FUTURE,Low,4 - Future
+AIM,AIM_STATUS,Status,Status,4,"(1,)",int32,10,40.0,Edge & Divertor Physics,Spectroscopy & Plasma Emission,FUTURE,Low,4 - Future
+ALP,ALP_BADAMPS,,,10,"(1, 1)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_CHISQ,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_DENPEAKVAL,Peak density,m**-3,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_DENSITY,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_JSAPEAKPOS,Position of peak Jsat,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_JSAPEAKVAL,Peak Jsat value,A/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_JSAT,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_JSOL,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_KTEPEAKVAL,Peak KTe  value,eV,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_LAMJSATPP,Lambda Jsat pp,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_LAMJSATSOL,Lambda Jsat sol,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_POWER,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_POWPEAKVAL,Peak power,kW/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_POWSUM,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_POWTOT,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_R,,,10,"(1, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_TE,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_TIMEMID,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_VFLOAT,,,10,"(1, 196, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_LO_Z,,,10,"(1, 32)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_CHISQ,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_DENPEAKVAL,Peak density,m**-3,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_DENSITY,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_JSAPEAKPOS,Position of peak Jsat,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_JSAPEAKVAL,Peak Jsat value,A/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_JSAT,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_JSOL,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_KTEPEAKVAL,Peak KTe  value,eV,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_LAMJSATPP,Lambda Jsat pp,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_LAMJSATSOL,Lambda Jsat sol,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_POWER,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_POWPEAKVAL,Peak power,kW/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_POWSUM,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_POWTOT,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_R,,,10,"(1, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_TE,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_TIMEMID,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_VFLOAT,,,10,"(1, 196, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_INNER_UP_Z,,,10,"(1, 16)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_CHISQ,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_DENSITY,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_JSAT,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_JSOL,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_POWER,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_R,,,10,"(1, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_TE,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_TIMEMID,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_VFLOAT,,,10,"(1, 196, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC4_Z,,,10,"(1, 46)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_CHISQ,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_DENSITY,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_JSAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_JSOL,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_POWER,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_R,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_TE,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_TIMEMID,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_VFLOAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUL_SEC6_Z,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_CHISQ,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_DENSITY,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_JSAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_JSOL,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_POWER,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_R,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_TE,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_TIMEMID,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_VFLOAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC4_Z,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_CHISQ,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_DENSITY,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_JSAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_JSOL,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_POWER,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_R,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_TE,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_TIMEMID,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_VFLOAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUP_SEC6_Z,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_CHISQ,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_DENPEAKVAL,Peak density,m**-3,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_DENSITY,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_JSAPEAKPOS,Position of peak Jsat,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_JSAPEAKVAL,Peak Jsat value,A/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_JSAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_JSOL,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_KTEPEAKVAL,Peak KTe  value,eV,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_LAMJSATPP,Lambda Jsat pp,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_LAMJSATSOL,Lambda Jsat sol,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_POWER,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_POWPEAKVAL,Peak power,kW/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_POWSUM,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_POWTOT,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_R,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_TE,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_TIMEMID,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_VFLOAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_LO_Z,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_CHISQ,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_DENPEAKVAL,Peak density,m**-3,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_DENSITY,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_JSAPEAKPOS,Position of peak Jsat,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_JSAPEAKVAL,Peak Jsat value,A/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_JSAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_JSOL,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_KTEPEAKVAL,Peak KTe  value,eV,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_LAMJSATPP,Lambda Jsat pp,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_LAMJSATSOL,Lambda Jsat sol,mm,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_POWER,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_POWPEAKVAL,Peak power,kW/m**2,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_POWSUM,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_POWTOT,Power,kW,10,"(196,)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_R,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_TE,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_TIME,,,10,"(1, 196)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_TIMEMID,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_VFLOAT,,,10,"(1, 196, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_OUTER_UP_Z,,,10,"(1, 48)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_PASSNUMBER,,,10,"(1, 1)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+ALP,ALP_STATUS,,,10,"(1, 1)",float32,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+AGA,AGA_BC11,Gas output for BC11,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_BC5,Gas output for BC5,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_FIG,Fast Ion Gauge molec.den,D2/m3,10,"(127000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_FIG_RAW,Fast Ion Gauge molec.den,D2/m3,10,"(127000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HECC,Gas output for HECC,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HELIOS,Helios output,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HL1,Gas output for HL1,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HL11,Gas output for HL11,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HM12,Gas output for HM12,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HU11,Gas output for HU11,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HU6,Gas output for HU6,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_HU8,Gas output for HU8,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_IBFLA,Gas output for IBFLA,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_IBFLB,Gas output for IBFLB,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_IBFUA,Gas output for IBFUA,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_IBFUB,Gas output for IBFUB,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_IBIL,Gas output for IBIL,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_INBOARD_TOTAL,Total inboard gas,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_INTEG_GAS,Integrated total gas,electrons,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_OUTBOARD_TOTAL,Total outboard gas,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_PASSNUMBER,Pass,Pass,10,"(1,)",int32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_STATUS,Status,Status,10,"(1,)",int32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_TC11,Gas output for TC11,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_TC5A,Gas output for TC5A,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+AGA,AGA_TC5B,Gas output for TC5B,electrons/s,10,"(8000,)",float32,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+ACT,ACT_C_PLA_CUTOFF,Cutoff (slice no),no,2,"(1, 3)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_PLA_CUTOFFTIME,Cutofftime,s,2,"(1, 3)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_PLA_CX_COUNTS,CX counts (fitted),Photo electr,2,"(3, 32)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_PLA_FITTED_SPECTR,Fitted spectrum,Photo electr,2,"(1, 32, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_PLA_RAW_SPECTRUM,Raw spectrum,Photo electr,2,"(3, 32, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_PLA_TEMPERATURE,Carbon temperature,eV,2,"(3, 32)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_PLA_VELOCITY,Carbon Velocity,m/s,2,"(3, 32)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_CUTOFF,Cutoff (slice no),no,2,"(1, 3)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_CUTOFFTIME,Cutofftime,s,2,"(1, 3)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_CX_COUNTS,CX counts (fitted),Photo electr,2,"(3, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_FITTED_SPECTRU,Fitted spectrum,Photo electr,2,"(1, 64, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_RAW_SPECTRUM,Raw spectrum,Photo electr,2,"(3, 64, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_TEMPERATURE,Carbon temperature,eV,2,"(3, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_C_SS_VELOCITY,Carbon Velocity,m/s,2,"(3, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_LOSTFRAMES,Lost frames,,2,"(1,)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_PASSNUMBER,Pass,Pass,2,"(1,)",int32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_RADFITC,Radial fit coefficients,,2,"(1, 11)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_BGSPEC,Background spectrum,Photo electr,2,"(130, 64, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_CHISQ,Chisq,,2,"(130, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_COVARIANCE,"Int, Pos, Wid, Alpha cov",,2,"(130, 64, 16)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_CX2BGRATIO,CX/BG ratio,,2,"(130, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_CXSPEC,Active spectrum,Photo electr,2,"(130, 64, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_CX_COUNTS,CX counts (fitted),Photo electr,2,"(130, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_CX_EMISSIVITY,CX emissivity,s-1 m-2 sr-1,2,"(130, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_FITS,Fitted spectrum,Photo electr,2,"(130, 64, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_SPECTRA,Spectrum,Photo electr,2,"(130, 64, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_TEMPERATURE,Carbon temperature,eV,2,"(130, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_SS_VELOCITY,Carbon Velocity,m/s,2,"(130, 64)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT_STATUS,Status,Status,2,"(1,)",int32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_CUTOFF,Cutoff (slice no),no,2,"(1, 3)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_CUTOFFTIME,Cutofftime,s,2,"(1, 3)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_CX_COUNTS,CX counts (fitted),Photo electr,2,"(3, 32)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_FITTED_SPECT,Fitted spectrum,Photo electr,2,"(1, 32, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_RAW_SPECTRUM,Raw spectrum,Photo electr,2,"(3, 32, 60)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_TEMPERATURE,Carbon temperature,eV,2,"(3, 32)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ACT,ACT__C_PLB_VELOCITY,Carbon Velocity,m/s,2,"(3, 32)",float32,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ABM,ABM_CALIB_SHOT,Calibration Shot,,10,"(1,)",int16,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_CHANNEL_STATUS,channel_status,,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_CHANNEL_TYPE,channel_type,,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_GAIN,GAIN,,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_I-BOL,i-bol,W/m^2,10,"(7500, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_KM,KM,Watts,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_PASSNUMBER,Passnumber,Passnumber,10,"(1,)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_PHI-CHORDS,phi_chords,deg,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_PHI-SLITS,phi_slits,deg,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_PRAD_POL,P_Rad_Pol,W,10,"(7500,)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_R-CHORDS,r_chords,m,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_R-SLITS,r_slits,m,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_RBM,RBM,Ohms,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_R_TCO_EMIS,r_tco_emis,m,10,"(1, 10)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_STATUS,Status,Status,10,"(1,)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_TAUM,TAUM,ms,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_TCO_EMIS,tco_emis,W/m^3,10,"(7500, 10)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_V-BOL,v-bol,V,10,"(7500, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_VERSION,Version,Version,10,"(1,)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_Z-CHORDS,z_chords,m,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ABM,ABM_Z-SLITS,z_slits,m,10,"(1, 32)",float32,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ACD,ACD_PASSNUMBER,Pass,Pass,2,"(1,)",int32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_OTRES_C6EMIS,c6chord brightness,ph/ster/m2/s,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_SNPFIT_C6D,Density,particles/m3,2,"(3, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_SNPFIT_C6EMIS,c6chord brightness,ph/ster/m2/s,2,"(3, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_SNPFIT_C6ONLY_ZF,Z-effective,Average Prot,2,"(3, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_SNPRAW_C6D,Density,particles/m3,2,"(3, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_SNPRAW_C6EMIS,c6chord brightness,ph/ster/m2/s,2,"(3, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_SNPRAW_C6ONLY_ZF,Z-effective,Average Prot,2,"(3, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_TRESFT_C6DNS,Density,particles/m3,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_TRESFT_C6EMIS,c6chord brightness,ph/ster/m2/s,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_TRESFT_C6ONLY_ZF,Z-effective,Average Prot,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_TRESRW_C6DNS,Density,particles/m3,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_TRESRW_C6EMIS,c6chord brightness,ph/ster/m2/s,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_SS_TRESRW_C6ONLY_ZF,Z-effective,Average Prot,2,"(25, 64)",float32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ACD,ACD_STATUS,Status,Status,2,"(1,)",int32,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future
+ANB,ANB_SW_SOURCE_GAS_DEUTE,,,1,"(50001,)",float32,10,10.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Low,5 - Unclassified

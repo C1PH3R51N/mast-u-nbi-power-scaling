@@ -1,0 +1,25 @@
+diagnostic,diagnostic_description,shots_available,files_found,total_cohort_shots,coverage_pct,primary_category,secondary_category,project_role,coverage_band,analysis_priority
+ANB,Neutral Beam Injection,10,10,10,100.0,Heating & Current Drive,Fast Ions & Energetic Particles,CORE,Complete,1 - High
+AMC,Magnetics,10,10,10,100.0,Magnetics & Plasma Current,Plasma Control,CORE,Complete,1 - High
+ANU,Neutron Rate,10,10,10,100.0,Neutrons & Fusion Performance,Fusion Output,CORE,Complete,1 - High
+ADG,Plasma Edge Density,10,10,10,100.0,Edge & Divertor Physics,Electron Density,CANDIDATE,Complete,2 - Medium
+ANE,CO2 Interferometer,10,10,10,100.0,Electron Density,Plasma State,CANDIDATE,Complete,2 - Medium
+AYC,Core Nd:YAG Thomson Scattering,10,10,10,100.0,Electron Density & Temperature,Core Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AYE,Edge Nd:YAG Thomson Scattering,10,10,10,100.0,Electron Density & Temperature,Edge Plasma Profiles,CANDIDATE,Complete,2 - Medium
+AMS,Motional Stark Effect,10,10,10,100.0,Equilibrium & Current Profile,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+EFM,Plasma Equilibrium,10,10,10,100.0,Equilibrium & Plasma Geometry,Plasma State,CANDIDATE,Complete,2 - Medium
+AMA,Mirnov Coil,10,10,10,100.0,MHD & Plasma Stability,Magnetics & Plasma Current,CANDIDATE,Complete,2 - Medium
+ASM,H-mode and locked mode detector,10,10,10,100.0,MHD & Plasma Stability,Confinement Regime,CANDIDATE,Complete,2 - Medium
+AMB,Magnetics,10,10,10,100.0,Magnetics & Plasma Current,Plasma Control,CANDIDATE,Complete,2 - Medium
+AMH,Magnetics,10,10,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+AMM,Magnetics,10,10,10,100.0,Magnetics & Plasma Current,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ANT,Neutron Dose,10,10,10,100.0,Neutrons & Fusion Performance,Radiation Monitoring,CANDIDATE,Complete,2 - Medium
+AHX,Analysed Hard X-rays,10,10,10,100.0,Radiation & Energetic Particle Emission,Fast Ions & Energetic Particles,CANDIDATE,Complete,2 - Medium
+ASX,Soft X-Ray Analysis,10,10,10,100.0,Radiation & Plasma Emission,MHD & Plasma Stability,CANDIDATE,Complete,2 - Medium
+ADA,Plasma Edge Radius,10,10,10,100.0,Edge & Divertor Physics,Plasma Geometry,FUTURE,Complete,4 - Future
+AIM,Analysed D-Alpha,4,4,10,40.0,Edge & Divertor Physics,Spectroscopy & Plasma Emission,FUTURE,Low,4 - Future
+ALP,Langmuir Probes,10,10,10,100.0,Edge & Divertor Physics,Plasma-Wall Interaction,FUTURE,Complete,4 - Future
+AGA,Analysed Gas Injection,10,10,10,100.0,Fuelling & Gas Injection,Machine Operations,FUTURE,Complete,4 - Future
+ACT,Time resolved Charge Exchange,2,2,10,20.0,"Ion Temperature, Rotation & Spectroscopy",Plasma Transport,FUTURE,Low,4 - Future
+ABM,Multi-chord bolometers,10,10,10,100.0,Radiation & Bolometry,,FUTURE,Complete,4 - Future
+ACD,Carbon Density,2,2,10,20.0,Spectroscopy & Impurity Physics,Ion Physics,FUTURE,Low,4 - Future

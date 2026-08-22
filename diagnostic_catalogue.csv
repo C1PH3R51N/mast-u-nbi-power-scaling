@@ -1,0 +1,25 @@
+diagnostic,diagnostic_description,shots_available,files_found,total_cohort_shots,coverage_pct
+ABM,Multi-chord bolometers,10,10,10,100.0
+ADA,Plasma Edge Radius,10,10,10,100.0
+ADG,Plasma Edge Density,10,10,10,100.0
+AGA,Analysed Gas Injection,10,10,10,100.0
+AHX,Analysed Hard X-rays,10,10,10,100.0
+ALP,Langmuir Probes,10,10,10,100.0
+AMA,Mirnov Coil,10,10,10,100.0
+AMB,Magnetics,10,10,10,100.0
+AMC,Magnetics,10,10,10,100.0
+AMH,Magnetics,10,10,10,100.0
+AMM,Magnetics,10,10,10,100.0
+AMS,Motional Stark Effect,10,10,10,100.0
+ANB,Neutral Beam Injection,10,10,10,100.0
+ANE,CO2 Interferometer,10,10,10,100.0
+ANT,Neutron Dose,10,10,10,100.0
+ANU,Neutron Rate,10,10,10,100.0
+ASM,H-mode and locked mode detector,10,10,10,100.0
+ASX,Soft X-Ray Analysis,10,10,10,100.0
+AYC,Core Nd:YAG Thomson Scattering,10,10,10,100.0
+AYE,Edge Nd:YAG Thomson Scattering,10,10,10,100.0
+EFM,Plasma Equilibrium,10,10,10,100.0
+AIM,Analysed D-Alpha,4,4,10,40.0
+ACD,Carbon Density,2,2,10,20.0
+ACT,Time resolved Charge Exchange,2,2,10,20.0

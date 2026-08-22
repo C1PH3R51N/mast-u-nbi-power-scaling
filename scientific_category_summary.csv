@@ -1,0 +1,16 @@
+primary_category,diagnostics,mean_coverage_pct
+Edge & Divertor Physics,4,85.0
+Electron Density,1,100.0
+Electron Density & Temperature,2,100.0
+Equilibrium & Current Profile,1,100.0
+Equilibrium & Plasma Geometry,1,100.0
+Fuelling & Gas Injection,1,100.0
+Heating & Current Drive,1,100.0
+"Ion Temperature, Rotation & Spectroscopy",1,20.0
+MHD & Plasma Stability,2,100.0
+Magnetics & Plasma Current,4,100.0
+Neutrons & Fusion Performance,2,100.0
+Radiation & Bolometry,1,100.0
+Radiation & Energetic Particle Emission,1,100.0
+Radiation & Plasma Emission,1,100.0
+Spectroscopy & Impurity Physics,1,20.0
